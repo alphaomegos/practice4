@@ -8,3 +8,5 @@ for file in *txt
 		mv temp $file
 	done
 
+# don't forget to chmod +x 01.sh
+# otherwise it will not work
