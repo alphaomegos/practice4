@@ -11,3 +11,6 @@ cat *.txt > sizelog.txt
 
 #don't forget to chmod +x 04.sh
 #otherwise it will not work
+#to add this script to cron schedule:
+#run command crontab -e
+#0 0 * * * ~/practice4/04.sh
